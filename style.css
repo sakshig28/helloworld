@@ -1,3 +1,27 @@
 body  {
     background-color: rosybrown; 
+
+}
+nav{
+    text-transform: uppercase;
+    font-family: sans-serif; 
+}
+.nav-link{ 
+    font-weight: bold;
+}
+/* when you hover the tabs change to italics and background color turns blue*/
+.nav-link:hover{
+    font-style: italic; 
+    background-color: blue;
+}
+
+header{
+    height: 600px;
+    /*width 100%;*/
+    background-image:url("flowers.jpeg"); 
+    /*text align*/
+    text-align: center; 
+}    
+header p{ 
+    font-style: italic;
 }
