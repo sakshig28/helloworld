@@ -9,10 +9,10 @@ nav{
 .nav-link{ 
     font-weight: bold;
 }
-/* when you hover the tabs change to italics and background color turns blue*/
+/* when you hover the tabs change to italics and background color turns light blue*/
 .nav-link:hover{
     font-style: italic; 
-    background-color: blue;
+    background-color: lightblue;
 }
 
 header{
@@ -24,4 +24,33 @@ header{
 }    
 header p{ 
     font-style: italic;
+    color: white; 
+}
+
+h1{ 
+    color: white; 
+    
+}
+    
+.services i {
+    font-size: 30px;
+    padding: 25px 25px;
+}
+
+.services i {
+    
+    color: #fff;
+    background-color: orchid;
+
+    width: 75px;
+    height: 75px;
+    
+    border-radius: 50%;
+    
+}
+
+.services span { 
+    width: 200px;
+    display: inline-block;
+    
 }
