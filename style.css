@@ -52,5 +52,17 @@ h1{
 .services span { 
     width: 200px;
     display: inline-block;
+}
+
+.teams img { 
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+} 
+
+.contact text area {
+    rows=10 
+    cols: 80 
     
 }
+
