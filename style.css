@@ -54,15 +54,39 @@ h1{
     display: inline-block;
 }
 
-.teams img { 
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-} 
+*Team*/
+.team{
+   margin-top: 80px;
+   margin-bottom: 80px;
+}
+.team img{
+   width: 250px;
+   height: 250px;
+   /*Object fit will crop and center image based on width and height*/
+   object-fit: cover;
+   border-radius: 50%;
+   margin-bottom: 50px;
+}
 
-.contact text area {
-    rows=10 
-    cols: 80 
-    
+*Contact*/
+.contact {
+   margin-bottom: 80px;
+}
+.contact .input-group {
+   margin-bottom: 25px;
+}
+.contact i {
+   padding: 15px;
+}
+.contact .btn {
+   border-radius: 0;
+   width: 100%;
+   font-size: 15px;
+   background-color: #f08080;
+   color: #fff;
+}
+.contact .btn:hover {
+   background-color: #a85959 !important;
+   color: #fff !important;
 }
 
